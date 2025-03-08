@@ -1,0 +1,426 @@
+
+@font-face {
+    font-family: MagicLeaf;
+    src: url(fonts/MagicLeaf.ttf);
+    
+}
+@font-face {
+    font-family: IndonesianIcons;
+    src: url(fonts/IndonesianIcons.otf);
+}
+@font-face {
+    font-family: China;
+    src: url(fonts/China.ttf);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: MagicLeaf, sans-serif;
+    font-size: 55px;
+}
+.wrapper {
+    text-align: center;
+    width: 80%;
+    margin:auto;
+}
+#Home {
+    background-image: url(u5sitebuild_images/formattedleaf.png);
+    height: 300px;
+    width: cover;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px rgb(59, 105, 59);
+
+}
+main {
+    margin-left: 100px;
+}
+
+nav {
+    word-spacing: 5em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+}
+nav a:hover {
+    color: darkblue;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px black;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;/*visited color gets priority over a:hover*/
+}
+h2 {
+    text-align: center;
+    margin-right: 1%;
+}
+.asianfonts {
+    font-family: IndonesianIcons, MagicLeaf;
+    font-size: 60px;
+    text-align: center;
+    margin-left: 0%;
+}
+ul {
+    text-align: right;
+    list-style-type: none;
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    width: 524px;
+    margin-left: -17%;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+}
+#picservicelist {
+    display: grid;
+    grid-template-columns: 650px 600px;
+    
+}
+#servicepic1 {
+    background-image: url(u5sitebuild_images/massage.png);
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 90%;
+    margin-left: -13%;
+    margin-top: 19px;
+    border-radius: 85px;
+}
+footer {
+    text-align: center;
+    font-size: small;
+    margin-bottom: 3em;
+    margin-left: 3%;
+}
+.img {
+    background-color: lightgreen;
+}
+blockquote {
+    text-align: center;
+}
+li {
+    font-weight: bold;
+}
+#self {
+    background-image: url(u5sitebuild_images/self.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+#bio {
+   width: 75%;
+   text-align: center;
+   margin-top: 3%;
+   margin-left: 12%;
+   font-size: 17px;
+}
+#biosection {
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    text-align: center;
+    width: 30%;
+    margin-left: 32%;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+}
+#aboutfooter {
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+span {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+#welcome {
+    text-align: center;
+    width: 40%;
+    padding: 25px;
+    margin-left: 25%;
+    margin-top: 1%;
+    margin-bottom: 1em;
+}
+.realbtn {
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-right: 8%;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+.realbtnlink {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.realbtn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+form {
+    margin-bottom: 5em;
+}
+#email {
+    margin-right: 10%;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+#newsletter {
+    margin-right: 7%;
+}
+.reviews {
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    width: 30%;
+    margin-left: 31%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+}
+#reviewbtn {
+    width:auto;
+    margin-left: 40%;
+    margin-bottom: -40%;
+    margin-top: 10%;
+}
+#reviewimg {
+    background-image: url(u5sitebuild_images/flower.png);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 350px;
+    float: left;
+    margin-left: -10px;
+    margin-top: 4%;
+    border-radius: 30px;
+}
+#reviewchinafont {
+    font-family: China, MagicLeaf;
+    font-size: 350px;
+    margin-left: 72%;
+    margin-top: -33%;
+    color: black;
+}
+#aboutbtn {
+    width:auto;
+    margin-left: 42%;
+    margin-bottom: 10%;
+}
+#contactbackground {
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    width: 30%;
+    text-align: center;
+    margin-left: 31%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+}
+#contactimg {
+    background-image: url(u5sitebuild_images/stones.png);
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 400px;
+    float: left;
+    margin-left: 55px;
+    margin-top: 7%;
+    opacity: .5;
+}
+#contactbtn {
+    margin-left: 9%;
+    margin-bottom: 1%;
+    margin-top: 45px;
+
+}
+#chinafont {
+    font-family: China, MagicLeaf;
+    font-size: 300px;
+    margin-left: 75%;
+    margin-top: -25%;
+    color: darkgreen;
+}
+#memberbtn{
+    margin-left: 8%;
+    margin-top: -15%;
+}
+#membersimg {
+    background-image: url(u5sitebuild_images/deeptissue.png);
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 400px;
+    float: left;
+    margin-left: -20px;
+    margin-top: 3%;
+    border-radius: 20px;
+    border: saddlebrown 3px solid;
+}
+#members {
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    width: 30%;
+    text-align: center;
+    margin-left: 33%;
+    padding: 10px;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(44, 37, 37);
+}
+#membersicon {
+    font-family: IndonesianIcons, MagicLeaf;
+    font-size: 300px;
+    margin-left: 72%;
+    margin-top: -35%;
+    color: saddlebrown;
+}
+#memberfoot{
+    margin-top: 7%;
+    text-align: center;
+    margin-left: 1%;
+}
+#servicesbtn {
+    margin-bottom: 10%;
+}
+#radio {
+    text-align: left;
+    margin-left: 65px;
+}
+#selectaddons {
+    background-image: linear-gradient(to top left, rgb(5, 104, 134), rgb(50, 202, 225));
+    width: 37%;
+    text-align: center;
+    margin-left: 27%;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+    
+}
+#addonsheader {
+    text-align: center;
+    margin-left: 21px;
+}
+audio {
+    margin-left: 12%;
+}
+iframe {
+    margin-left: 4%;
+}
+#faqsection {
+    background-image: linear-gradient(to bottom right, rgba(169, 60, 215, 0), rgb(14, 149, 84));
+    text-align: center;
+    width: 30%;
+    margin-left: 31%;
+    box-shadow: 5px 5px 5px rgb(68, 57, 57);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 1%;
+}
+#faqchinafont {
+    font-family: China, MagicLeaf;
+    font-size: 300px;
+    margin-left: 75%;
+    margin-top: -25%;
+    color: darkgreen;
+}
+#faqimg {
+    background-image: url(u5sitebuild_images/oils.jpeg);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 350px;
+    float: left;
+    margin-left: -10px;
+    margin-top: 0%;
+    border-radius: 30px;
+}
+#faqdl {
+    text-align: left;
+    padding: 12px;
+
+}
+#faqbtn {
+    margin-left: 16%;
+    margin-bottom: 10%;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-right: 8%;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
+#servicetxt {
+    text-align: center;
+    margin-right: 39px;
+}
+#checkbox {
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+#newstitle {
+    margin-right: 6%;
+}
+#networkimg {
+    background-image: url(u5sitebuild_images/smallleaf.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin-left: -10px;
+    margin-top: 3%;
+    border-radius: 40px;
+}
+#networkicon {
+    font-family: IndonesianIcons, MagicLeaf;
+    font-size: 300px;
+    margin-left: 75%;
+    margin-top: -30%;
+    color: black;
+}
+#network {
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom: 12%;
+    margin-top: 4%;
+}
+#intronetwork {
+    text-align: center;
+    width: 35%;
+    padding: 12px;
+    margin-left: 28%;
+}
+#contactfoot {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 7%;
+    margin-right: 35%;
+
+}
+#reviewfoot {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: -2%;
+}
+#faqfoot {
+    text-align: center;
+    margin-top: -2%;
+    margin-left: -2%;
+}
+.contactlinks {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alex Stampfl Massage</title>
+        <meta charset="utf-8">
+        <Link rel="stylesheet" href="sitebuildcss.css">
+    </head>
+    <body>
+        <div class="wrapper">
+        <header>
+            <h1> 
+                Alex Stampfl Massage & Bodywork
+            </h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contactus.html">Contact</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="network.html">Network</a>
+            <a href="member.html">Membership</a>
+        </nav>
+        <div id="Home">
+       </div>
+        <main>
+            <a href="services.html" class="realbtnlink"><button type="button" class="realbtn">Book Now</button></a>
+            <p id="welcome">Welcome. Here you will find everything you need to know about massage therapy and the benefits of getting massages. Whether you're looking for reducing stress, or just to relax, we have something for you. Massage therapy can help with blood circulation. It can help relieve muscle tension and lower blood pressure. </p>
+            <form>
+                <h2 id="newstitle">Join our Newsletter</h2>
+                Email: <input type="text" name="email" id="email" required><br>
+                <input type="checkbox" id="checkbox">I confirm I want to receive promotional & advertisement emails<br>
+                <input type="submit" id="newsletter">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2022
+        </footer>
+        </div><!--closes wrapper-->
+    </body>
+</html>
