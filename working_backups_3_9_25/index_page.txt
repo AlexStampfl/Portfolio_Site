@@ -43,20 +43,21 @@
                 </div>
             </div>
         </nav>
-        <main>
-            <div id="contactmee">
-                <h2 id="contactheader">Contact</h2>
-                <hr>
-                <h3 id="contacth3">Email</h3>
-                <p>Click the link below to open & write an email</p>
-                <p><a id="email" href="mailto:alexstampfl@gmail.com">alexstampfl@gmail.com</a></p>
-                <span>
-                    <p id="contactp">Please reach me via email & I'll get back to you as soon as possible</p>
-                </span>
-            </div>
-        </main>
-        <div class="content-wrapper"></div>
-    </div>
+        <div class="content-wrapper">
+            <main>
+                <div id="main">
+                    <img id="homepic" src="./images/me.jpg" alt="Posing Alex Stampfl">
+                    <div id="divhomep">
+                        <h1 class="homepageh1">
+                            Hi there. <br>
+                            I'm Alex Stampfl,</h1>
+                        <h4 class="homepageh4">a web developer.</h4>
+                        <br>
+                        <p id="homeheaderp">Have a look around and <br>let me know if you need anything.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
     <footer class="footer bg-dark text-white py-3">
         <div class="container-fluid text-center">
             <div class="icons">
@@ -74,9 +75,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
-
-
-

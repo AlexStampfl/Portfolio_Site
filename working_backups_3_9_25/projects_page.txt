@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Site</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="mainwrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Alex's Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="content-wrapper">
+            <main>
+                <div id="projectss">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>HTML & CSS</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/yLVXMRd"
+                                        target="_blank">
+                                        <li class="projectlistitem">Personal Portfolio Project</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/mdOPdod"
+                                        target="_blank">
+                                        <li class="projectlistitem">Survey Form</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/OJbRWmB"
+                                        target="_blank">
+                                        <li class="projectlistitem">Landing Page</li>
+                                    </a>
+                                    <a class="aprojects" href="https://codepen.io/mastercoder92/pen/ZEBLvML"
+                                        target="_blank">
+                                        <li class="projectlistitem">Technical Document</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>JavaScript</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://www.aswebdev.com/projects/js_gtc_final_project/index.html"
+                                        target="_blank">
+                                        <li class="projectlistitem">Amateur Photography Site</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Java</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/Java_Final_Project">
+                                        <li class="projectlistitem">Student Survey & Vote</li>
+                                    </a>
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/Home-Inventory-App">
+                                        <li class="projectlistitem">Home Inventory App</li>
+                                    </a>
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/CSC372-m8-final-program">
+                                        <li class="projectlistitem">Student Inventory App</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>PHP</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="./projects/php_gtc_final_project/" target="_blank">
+                                        <li class="projectlistitem">Home Gym Website</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Python</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/Python-Data-Entry-App/blob/main/README.md">
+                                        <li class="projectlistitem">MongoDB App</li>
+                                    </a>
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/GUI-Dog-Entry-Program/tree/main">
+                                        <li class="projectlistitem">GUI Dog App</li>
+                                    </a>
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/Car-Inventory-App">
+                                        <li class="projectlistitem">Car Inventory App</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Frameworks</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/Express.js-final-project">
+                                        <li class="projectlistitem">Express.js Site</li>
+                                    </a>
+                                    <a class="aprojects" href="https://github.com/AlexStampfl/React-Flight-App">
+                                        <li class="projectlistitem">React Flight App</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Other</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://www.alexjstampfl.com/" target="_blank">
+                                        <li class="projectlistitem">Alex Stampfl Massage <br>& Bodywork, LLC</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h2>Wordpress</h2>
+                            </div>
+                            <div class="flip-box-back">
+                                <ul class="projul">
+                                    <a class="aprojects" href="https://hopenowelkhorn.org" target="_blank">
+                                        <li class="projectlistitem">HOPE NOW Inc.</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container-fluid text-center">
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/alex-stampfl/" target="_blank" class="text-white me-3">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p>&copy; 2023 Alex Stampfl</p>
+          <div class="icons"><a href="https://github.com/AlexStampfl" target="_blank" class="text-white">
+            <i class="fab fa-github"></i>
+          </a></div>
+        </div>
+      </footer>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
